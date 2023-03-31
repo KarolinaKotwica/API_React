@@ -17,7 +17,6 @@ const Search_bar = ({onSubmit}) => {
         <div>
             <form onSubmit={handleFromSubmit}>
                 <input value={term} type='text' onChange={handleChange}></input>
-                <p>{term}</p>
             </form>
         </div>
     )

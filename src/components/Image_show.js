@@ -1,6 +1,7 @@
-const Image_show = () => {
+const Image_show = ({image}) => {
+    console.log(image)
     return (
-        <div></div>
+        <div>{image.id}</div>
     )
 }
 

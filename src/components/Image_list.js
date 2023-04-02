@@ -1,6 +1,12 @@
+import Image_show from "./Image_show";
+
 const Image_List = ({images}) => {
+    const renderedImages = images.map((image) => {
+        return <Image_show image={image} key={image.id } />
+    })
+
     return (
-        <div>Image List: {images.length}</div>
+        <div>{renderedImages}</div>
     )
 }
 

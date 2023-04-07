@@ -1,0 +1,10 @@
+form {
+    width: 100%;
+}
+
+.buttonSubmit {
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #000;
+    
+}

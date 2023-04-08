@@ -1,3 +1,12 @@
 .images {
     padding: .5rem;
+    width: auto;
+    height: 250px;
+    transition: all 0.5s ease-in-out;
+}
+
+.images:hover img {
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
 }

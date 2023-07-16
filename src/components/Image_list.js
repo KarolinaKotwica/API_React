@@ -7,7 +7,9 @@ const Image_List = ({images}) => {
     })
 
     return (
-        <div className="imageList">{renderedImages}</div>
+        <>
+            <div className="imageList">{renderedImages}</div>
+        </>
     )
 }
 

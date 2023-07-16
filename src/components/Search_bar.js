@@ -5,7 +5,7 @@ const Search_bar = ({onSubmit}) => {
     const [term, setTerm] = useState('')
 
     const handleChange = (e) => {
-        setTerm(e.target.value)
+        setTerm(e.target.value.replace(/[0-9]/, ''))
     }
 
     const handleFromSubmit = (e) => {
